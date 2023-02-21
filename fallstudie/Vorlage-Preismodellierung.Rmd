@@ -33,7 +33,7 @@ Ungefährer Umfang Text: 1--3 Sätze. Wird bei Gruppenarbeiten zusammen geschrie
 Daten einlesen:
 
 ```{r}
-Autos <- read_excel("Autos.xlsx")
+Autos <- read_excel(here("data","Autos.xlsx"))
 ```
 
 Kontrolle:
